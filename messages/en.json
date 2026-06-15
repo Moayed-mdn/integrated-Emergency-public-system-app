@@ -1,0 +1,38 @@
+{
+    "Header": {
+      "title": "Emergency Management System",
+      "Home": "Home",
+      "Alerts": "Alerts",
+      "Awareness": "Awareness",
+      "Appreciation": "Appreciation",
+      "Help & Suggestions": "Help & Suggestions"
+    },
+    "EmergencyNumbers": {
+      "title": "Key Emergency Numbers",
+      "ambulance": "Ambulance",
+      "fire_department": "Fire Department (Civil Defense)",
+      "police": "Police/Rescue",
+      "traffic_police": "Traffic Police",
+      "red_crescent": "Syrian Arab Red Crescent"
+    },
+    "OurServices": {
+      "title": "Our Services",
+      "description": "We provide a suite of services designed to keep you safe, informed, and connected during critical situations.",
+      "realTimeAlerts": {
+        "title": "Real-Time Alerts",
+        "description": "Receive immediate notifications about emergencies and important updates in your area."
+      },
+      "emergencyResponse": {
+        "title": "Emergency Response",
+        "description": "Access resources and guidelines for handling various emergency scenarios."
+      },
+      "communitySupport": {
+        "title": "Community Support",
+        "description": "Connect with local support networks and volunteer opportunities to help your community."
+      },
+      "communicationHub": {
+        "title": "Communication Hub",
+        "description": "A central place for all emergency-related communications and information dissemination."
+      }
+    }
+  }
