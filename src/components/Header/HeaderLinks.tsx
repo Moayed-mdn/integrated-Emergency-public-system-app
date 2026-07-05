@@ -8,9 +8,9 @@ export default function HeaderLinks() {
 
   const links = [
     { name: t("Home"), href: "/" },
-    { name: t("Alerts"), href: "/alerts" },
+    { name: t("About"), href: "/about" },
+    { name: t("Posts"), href: "/posts" },
     { name: t("Awareness"), href: "/awareness" },
-    { name: t("Appreciation"), href: "/appreciation" },
     { name: t("Help & Suggestions"), href: "/help" },
   ];
 

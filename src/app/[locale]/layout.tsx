@@ -1,6 +1,7 @@
 import {NextIntlClientProvider} from 'next-intl';
 import {getLocale, getMessages} from 'next-intl/server';
 import {Header} from '@/components/Header/Header';
+import {Footer} from '@/components/Footer/Footer';
 import "../globals.css";
 import Container from '@/components/Container';
 
@@ -34,11 +35,12 @@ export default async function LocaleLayout({
 
   return (
     <html lang={locale} dir={direction} suppressHydrationWarning>
-      <body>
+      <body suppressHydrationWarning>
         <NextIntlClientProvider messages={messages}>
           <Container>
             <Header />
             {children}
+            <Footer />
           </Container>
         </NextIntlClientProvider>
       </body>

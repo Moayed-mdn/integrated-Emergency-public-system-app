@@ -2,9 +2,9 @@
     "Header": {
       "title": "Emergency Management System",
       "Home": "Home",
-      "Alerts": "Alerts",
+      "About": "About",
+      "Posts": "Posts",
       "Awareness": "Awareness",
-      "Appreciation": "Appreciation",
       "Help & Suggestions": "Help & Suggestions"
     },
     "EmergencyNumbers": {
@@ -34,5 +34,164 @@
         "title": "Communication Hub",
         "description": "A central place for all emergency-related communications and information dissemination."
       }
+    },
+    "Help": {
+      "title": "Help & Suggestions",
+      "description": "We're here to help you navigate the Emergency Management System. Find answers to common questions or share your suggestions with us.",
+      "resources": {
+        "title": "How We Can Help You",
+        "item1": {
+          "title": "Emergency Guidelines",
+          "description": "Learn about emergency procedures and how to stay safe during critical situations."
+        },
+        "item2": {
+          "title": "System Support",
+          "description": "Get help with using the platform features and reporting emergencies effectively."
+        },
+        "item3": {
+          "title": "Community Resources",
+          "description": "Discover local support networks and connect with emergency services in your area."
+        }
+      },
+      "form": {
+        "title": "Share Your Suggestions",
+        "subtitle": "Your feedback helps us improve our service and better serve the community.",
+        "label": "Your Suggestion",
+        "placeholder": "Tell us how we can improve our services, or share any feedback you have...",
+        "characters": "characters",
+        "min_required": "minimum",
+        "submit": "Submit Suggestion",
+        "submitting": "Submitting...",
+        "success": "Thank you! Your suggestion has been submitted successfully."
+      },
+      "errors": {
+        "min_length": "Please provide at least 10 characters.",
+        "max_length": "Your suggestion must not exceed 1000 characters.",
+        "submission_failed": "Failed to submit suggestion. Please try again.",
+        "network_error": "Network error. Please check your connection and try again."
+      },
+      "contact": {
+        "text": "Need immediate assistance? Contact us at"
+      }
+    },
+    "About": {
+      "title": "About Us",
+      "subtitle": "Dedicated to protecting lives and ensuring community safety through innovative emergency management solutions.",
+      "mission": {
+        "title": "Our Mission",
+        "description": "To provide a comprehensive, accessible, and efficient emergency management system that connects citizens with emergency services, delivers real-time alerts, and empowers communities to respond effectively to disasters and critical situations."
+      },
+      "vision": {
+        "title": "Our Vision",
+        "description": "To be the leading emergency management platform in Syria, creating a safer and more resilient society through technology, collaboration, and community engagement."
+      },
+      "values": {
+        "title": "Our Core Values",
+        "value1": {
+          "title": "Rapid Response",
+          "description": "Every second counts in an emergency. We ensure information reaches you instantly."
+        },
+        "value2": {
+          "title": "Community First",
+          "description": "We prioritize the safety and well-being of every member of our community."
+        },
+        "value3": {
+          "title": "Reliability",
+          "description": "Our system is available 24/7, ensuring you always have access to critical information."
+        },
+        "value4": {
+          "title": "Trust & Transparency",
+          "description": "We build trust through clear communication and verified information from official sources."
+        }
+      },
+      "whatWeDo": {
+        "title": "What We Do",
+        "item1": "Provide real-time emergency alerts and notifications to keep you informed of critical situations in your area.",
+        "item2": "Connect citizens directly with emergency services including ambulance, fire department, police, and rescue teams.",
+        "item3": "Offer comprehensive emergency awareness resources and educational materials to help you prepare for various scenarios.",
+        "item4": "Enable community reporting of emergencies and incidents to create a collaborative safety network.",
+        "item5": "Deliver multilingual support to ensure all community members can access vital emergency information."
+      },
+      "technology": {
+        "title": "Our Technology",
+        "description": "Built with cutting-edge technology, our platform leverages real-time data processing, artificial intelligence, and geographic information systems to provide accurate and timely emergency information. Our robust infrastructure ensures high availability and reliability when you need it most."
+      },
+      "stats": {
+        "availability": "System Availability",
+        "emergencyNumbers": "Emergency Services",
+        "languages": "Supported Languages"
+      },
+      "contact": {
+        "title": "Get in Touch",
+        "description": "Have questions or suggestions? We'd love to hear from you.",
+        "button": "Contact Us"
+      }
+    },
+    "Awareness": {
+      "title": "Emergency Awareness",
+      "description": "Learn essential information about emergencies and disasters to stay prepared and safe.",
+      "loading": "Loading articles...",
+      "error": "Failed to load awareness articles. Please try again.",
+      "retry": "Try Again",
+      "noArticles": "No awareness articles available at this time.",
+      "readMore": "Read More",
+      "close": "Close"
+    },
+    "Hero": {
+      "badge": "Emergency Response System",
+      "title": "Your Safety Is Our Priority",
+      "subtitle": "Stay informed, stay prepared, stay safe. Access real-time emergency alerts, connect with first responders, and get the help you need when it matters most.",
+      "cta_primary": "Emergency Numbers",
+      "cta_secondary": "Learn More",
+      "stat_1": "Available",
+      "stat_2": "Ambulance",
+      "stat_3": "Community"
+    },
+    "Posts": {
+      "title": "Emergency Posts & Alerts",
+      "description": "Stay updated with the latest emergency reports and official announcements from authorities.",
+      "official": "Official",
+      "loading": "Loading posts...",
+      "error": "Failed to load posts. Please try again.",
+      "retry": "Try Again",
+      "noPosts": "No posts available at this time.",
+      "readMore": "Read More",
+      "close": "Close",
+      "location": "Location",
+      "coordinates": "Coordinates",
+      "hasLocation": "Location Available",
+      "previous": "Previous",
+      "next": "Next",
+      "page": "Page",
+      "of": "of"
+    },
+    "Footer": {
+      "about": {
+        "title": "About Us",
+        "description": "Your trusted emergency management platform. We're dedicated to keeping communities safe through real-time alerts, comprehensive resources, and direct access to emergency services."
+      },
+      "quickLinks": {
+        "title": "Quick Links",
+        "home": "Home",
+        "about": "About",
+        "alerts": "Alerts",
+        "awareness": "Awareness",
+        "help": "Help & Suggestions"
+      },
+      "emergency": {
+        "title": "Emergency Numbers",
+        "ambulance": "Ambulance",
+        "fire": "Fire Dept",
+        "police": "Police/Rescue",
+        "traffic": "Traffic Police",
+        "redCrescent": "Red Crescent"
+      },
+      "downloadApp": {
+        "title": "Download Our App",
+        "description": "Get instant emergency alerts on your mobile device. Available on iOS and Android.",
+        "getItOn": "GET IT ON",
+        "downloadOn": "Download on the"
+      },
+      "copyright": "© {year} Emergency Management System. All rights reserved."
     }
   }
