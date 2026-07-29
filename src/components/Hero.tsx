@@ -2,6 +2,7 @@
 
 import { useTranslations, useLocale } from 'next-intl';
 import Container from './Container';
+import Image from 'next/image';
 
 export default function Hero() {
   const t = useTranslations('Hero');
@@ -33,6 +34,18 @@ export default function Hero() {
       <Container>
         <div className="relative py-20 md:py-32 lg:py-40">
           <div className="max-w-4xl">
+            {/* Logo Banner */}
+            <div className="mb-8">
+              <Image 
+                src="/logo.svg" 
+                alt="ResQ" 
+                width={400} 
+                height={100} 
+                className="h-16 md:h-20 w-auto"
+                priority
+              />
+            </div>
+
             {/* Badge */}
             <div className="inline-flex items-center gap-2 bg-white/10 backdrop-blur-sm border border-white/20 rounded-full px-4 py-2 mb-6">
               <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-[#B1A074]" viewBox="0 0 20 20" fill="currentColor">

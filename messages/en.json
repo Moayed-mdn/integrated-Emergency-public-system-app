@@ -1,6 +1,6 @@
 {
     "Header": {
-      "title": "Emergency Management System",
+      "title": "ResQ",
       "Home": "Home",
       "About": "About",
       "Posts": "Posts",
@@ -37,7 +37,7 @@
     },
     "Help": {
       "title": "Help & Suggestions",
-      "description": "We're here to help you navigate the Emergency Management System. Find answers to common questions or share your suggestions with us.",
+      "description": "We're here to help you navigate ResQ. Find answers to common questions or share your suggestions with us.",
       "resources": {
         "title": "How We Can Help You",
         "item1": {
@@ -192,6 +192,6 @@
         "getItOn": "GET IT ON",
         "downloadOn": "Download on the"
       },
-      "copyright": "© {year} Emergency Management System. All rights reserved."
+      "copyright": "© {year} ResQ. All rights reserved."
     }
   }
