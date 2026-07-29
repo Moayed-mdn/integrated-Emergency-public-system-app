@@ -145,7 +145,7 @@ export default function PostsPage() {
                             {type}
                           </span>
                         ))}
-                        {post.by_admin && (
+                        {!!post.by_admin && (
                           <span className="inline-block bg-blue-600 text-white text-xs font-semibold px-3 py-1 rounded-full">
                             {t('official')}
                           </span>
@@ -272,7 +272,7 @@ export default function PostsPage() {
                       {type}
                     </span>
                   ))}
-                  {selectedPost.by_admin && (
+                  {!!selectedPost.by_admin && (
                     <span className="inline-block bg-blue-600 text-white text-xs font-semibold px-3 py-1 rounded-full">
                       {t('official')}
                     </span>
