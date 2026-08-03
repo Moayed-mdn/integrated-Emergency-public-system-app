@@ -6,7 +6,7 @@ import { Menu, MenuButton, MenuItems, Transition } from '@headlessui/react'
 
 export default function HeaderMobile() {
   return (
-    <Menu as="div" className="relative md:hidden">
+    <Menu as="div" className="relative md:hidden z-100">
       
       <MenuButton className="flex flex-col justify-around w-6 h-6 focus:outline-none">
         <span className="block h-0.5 w-full bg-black" />
