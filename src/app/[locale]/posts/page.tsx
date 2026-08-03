@@ -146,7 +146,7 @@ export default function PostsPage() {
                           </span>
                         ))}
                         {!!post.by_admin && (
-                          <span className="inline-block bg-blue-600 text-white text-xs font-semibold px-3 py-1 rounded-full">
+                          <span className="inline-block bg-[var(--primary-color)] text-white text-xs font-semibold px-3 py-1 rounded-full">
                             {t('official')}
                           </span>
                         )}
@@ -182,12 +182,12 @@ export default function PostsPage() {
                         <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
                           <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z" clipRule="evenodd" />
                         </svg>
-                        <span>{post.created_at.date} • {post.created_at.time}</span>
+                        <span>{post.created_at.date} â€¢ {post.created_at.time}</span>
                       </div>
 
                       {/* Location Badge */}
                       {post.location && (
-                        <div className="inline-flex items-center gap-1 text-xs text-blue-600 bg-blue-50 px-2 py-1 rounded">
+                        <div className="inline-flex items-center gap-1 text-xs text-[var(--primary-color)] bg-[var(--primary-color)]/10 px-2 py-1 rounded">
                           <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" viewBox="0 0 20 20" fill="currentColor">
                             <path fillRule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clipRule="evenodd" />
                           </svg>
@@ -273,7 +273,7 @@ export default function PostsPage() {
                     </span>
                   ))}
                   {!!selectedPost.by_admin && (
-                    <span className="inline-block bg-blue-600 text-white text-xs font-semibold px-3 py-1 rounded-full">
+                    <span className="inline-block bg-[var(--primary-color)] text-white text-xs font-semibold px-3 py-1 rounded-full">
                       {t('official')}
                     </span>
                   )}
@@ -340,7 +340,7 @@ export default function PostsPage() {
                 <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
                   <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z" clipRule="evenodd" />
                 </svg>
-                <span>{selectedPost.created_at.date} • {selectedPost.created_at.time}</span>
+                <span>{selectedPost.created_at.date} â€¢ {selectedPost.created_at.time}</span>
               </div>
 
               {/* Close Button */}
