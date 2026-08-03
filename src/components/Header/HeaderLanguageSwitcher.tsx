@@ -10,17 +10,16 @@ export default function HeaderLanguageSwitcher(){
     const pathname = usePathname();
     const locale = useLocale();
     const currentLanguage = languages.find((lang) => lang.code === locale);
+
     return(
-      <Menu as="div" className="relative inset-s-4">
+      <Menu as="div" className="relative inset-s-4 z-[100]">
           <MenuButton className="flex items-center gap-2 text-(--primary-color) cursor-pointer">
                 <span className="text-sm uppercase font-extrabold">{currentLanguage?.code}</span> 
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-4 transition-transform ui-open:rotate-180">
                   <path strokeLinecap="round" strokeLinejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
                 </svg>
           </MenuButton>
-          <MenuItems className="absolute top-10 inset-e-3   py-3 border border-gray-200
-           rounded-lg flex flex-col text-end w-[160px]
-           ">
+          <MenuItems className="absolute top-10 inset-e-3 py-3 border border-gray-200 bg-white rounded-lg flex flex-col text-end w-[160px] shadow-lg">
             {languages.map((lang) => (
               <Link key={lang.code} href={pathname}
                locale={lang.code}
