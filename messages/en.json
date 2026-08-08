@@ -27,12 +27,19 @@
         "description": "Access resources and guidelines for handling various emergency scenarios."
       },
       "communitySupport": {
-        "title": "Community Support",
-        "description": "Connect with local support networks and volunteer opportunities to help your community."
+        "title": "Community & Updates",
+        "description": "Stay informed about the latest news, community initiatives, and activities that matter to you."
       },
       "communicationHub": {
         "title": "Communication Hub",
         "description": "A central place for all emergency-related communications and information dissemination."
+      },
+      "notifications": {
+        "unsupported": "Your browser does not support notifications",
+        "alreadyGranted": "Notification permission is already granted ✓",
+        "successTitle": "ResQ",
+        "successBody": "Notifications enabled successfully! We'll send you instant updates.",
+        "denied": "Notification permission is blocked. Please enable it from your browser settings."
       }
     },
     "Help": {

@@ -19,3 +19,7 @@ body {
     /* منع الإزاحة عند ظهور/اختفاء scrollbar */
     width: 100vw !important;
 }
+
+* {
+    scroll-behavior: smooth !important;
+}
