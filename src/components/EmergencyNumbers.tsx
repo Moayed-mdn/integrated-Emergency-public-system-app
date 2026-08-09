@@ -15,7 +15,7 @@ export default function EmergencyNumbers() {
   ];
 
   return (
-    <section className="py-16 px-4">
+    <section className="py-16 px-4" id='emergency-numbers'>
       <Container>
         <div className="grid md:grid-cols-3 lg:grid-cols-5 gap-8">
           {numbers.map((item, index) => (
