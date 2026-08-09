@@ -24,6 +24,9 @@ export const API_ENDPOINTS = {
   // Awareness
   awarenessArticles: '/awareness-articles',
   
+  // Suggestions
+  suggestions: '/suggestions',
+  
   // Posts
   posts: '/posts',
   adminPosts: '/posts/admin',

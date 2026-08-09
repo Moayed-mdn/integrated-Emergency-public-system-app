@@ -46,6 +46,7 @@ export default function HelpPage() {
         setSuccess(true);
         setContent('');
         setCharCount(0);
+        setError(''); // Clear any errors
         
         // Clear success message after 5 seconds
         setTimeout(() => {
@@ -168,18 +169,22 @@ export default function HelpPage() {
                   required
                 />
                 <div className="flex justify-between items-center mt-2">
-                  <span 
-                    className={`text-sm ${
-                      charCount < 10 
-                        ? 'text-red-500' 
-                        : charCount > 1000 
-                        ? 'text-red-500' 
-                        : 'text-[var(--text-color)]'
-                    }`}
-                  >
-                    {charCount} / 1000 {t('form.characters')}
-                    {charCount < 10 && ` (${t('form.min_required')} 10)`}
-                  </span>
+                  {charCount > 0 && !success && (
+                    <span 
+                      className={`text-sm ${
+                        charCount < 10 
+                          ? 'text-red-500' 
+                          : charCount > 1000 
+                          ? 'text-red-500' 
+                          : 'text-gray-600'
+                      }`}
+                    >
+                      {charCount} / 1000 {t('form.characters')}
+                      {charCount < 10 && (
+                        <span className="font-semibold"> • {t('form.min_required')} 10</span>
+                      )}
+                    </span>
+                  )}
                 </div>
               </div>
 
