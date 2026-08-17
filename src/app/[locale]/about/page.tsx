@@ -1,10 +1,11 @@
 'use client';
 
-import { useTranslations } from 'next-intl';
+import { useTranslations, useLocale } from 'next-intl';
 import Container from '@/components/Container';
 
 export default function AboutPage() {
   const t = useTranslations('About');
+  const locale = useLocale();
 
   return (
     <section className="py-16 px-4">
@@ -210,10 +211,8 @@ export default function AboutPage() {
               {t('contact.description')}
             </p>
             <a 
-              href="/help" 
-              className="inline-block bg-[var(--primary-color)] text-white font-semibold 
-                py-3 px-8 rounded-lg hover:bg-[var(--secondary-color)] 
-                transition-colors duration-200"
+              href={`/${locale}/help`}
+              className="inline-block bg-[var(--primary-color)] text-white font-semibold py-3 px-8 rounded-lg hover:bg-[var(--secondary-color)] transition-colors duration-200"
             >
               {t('contact.button')}
             </a>

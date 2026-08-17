@@ -182,7 +182,7 @@ export default function PostsPage() {
                         <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
                           <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z" clipRule="evenodd" />
                         </svg>
-                        <span>{post.created_at.date} â€¢ {post.created_at.time}</span>
+                        <span>{post.created_at.date} • {post.created_at.time}</span>
                       </div>
 
                       {/* Location Badge */}
@@ -253,7 +253,7 @@ export default function PostsPage() {
       {/* Modal */}
       {selectedPost && (
         <div
-          className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center p-4 z-50"
+          className="fixed inset-0 bg-black/50 bg-opacity-50 flex items-center justify-center p-4 z-50"
           onClick={closeModal}
         >
           <div
@@ -340,7 +340,7 @@ export default function PostsPage() {
                 <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
                   <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z" clipRule="evenodd" />
                 </svg>
-                <span>{selectedPost.created_at.date} â€¢ {selectedPost.created_at.time}</span>
+                <span>{selectedPost.created_at.date} • {selectedPost.created_at.time}</span>
               </div>
 
               {/* Close Button */}
