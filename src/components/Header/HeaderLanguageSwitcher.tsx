@@ -19,7 +19,10 @@ export default function HeaderLanguageSwitcher(){
                   <path strokeLinecap="round" strokeLinejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
                 </svg>
           </MenuButton>
-          <MenuItems className="absolute top-10 inset-e-3 py-3 border border-gray-200 bg-white rounded-lg flex flex-col text-end w-[160px] shadow-lg">
+          <MenuItems 
+            modal={false}
+            className="absolute top-10 inset-e-3 py-3 border border-gray-200 bg-white rounded-lg flex flex-col text-end w-[160px] shadow-lg"
+          >
             {languages.map((lang) => (
               <Link key={lang.code} href={pathname}
                locale={lang.code}

@@ -7,19 +7,8 @@
     --text-color: #7A6B45;
 }
 
-/* حل جذري لمشكلة إيقاف scroll من Headless UI */
-html {
-    overflow-y: scroll !important;
-    overflow-x: hidden !important;
-}
-
-body {
-    overflow-y: scroll !important;
-    overflow-x: hidden !important;
-    /* منع الإزاحة عند ظهور/اختفاء scrollbar */
-    width: 100vw !important;
-}
-
 * {
     scroll-behavior: smooth !important;
 }
+
+

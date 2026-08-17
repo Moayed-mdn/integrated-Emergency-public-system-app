@@ -23,7 +23,10 @@ export default function HeaderMobile() {
         leaveFrom="transform scale-100 opacity-100"
         leaveTo="transform scale-95 opacity-0"
       >
-        <MenuItems className="absolute  right-0 top-10 w-[120px] origin-top-right bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none">
+        <MenuItems 
+          modal={false}
+          className="absolute right-0 top-10 w-[120px] origin-top-right bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none"
+        >
           <div className="py-1">
             <HeaderLinks  />
           </div>
